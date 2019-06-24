@@ -7,7 +7,7 @@ import numpy as np
 import math
 import pandas as pd 
 import matplotlib.pyplot as plt 
-df = pd.read_csv('ex1data1.csv', header = None) #Загружаем данные из csv-файла в скрипт с помощью метода read_csv модуля pandas.
+df = pd.read_csv('ex1data1.csv', header = None) 
 x, y = df[0], df[1]
 
 plt.scatter(x, y, s = x, c ='green', label = u'Данные из файла')
